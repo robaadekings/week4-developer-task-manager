@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                      // Specify ECMAScript target version
+    "module": "ESNext",
+    "moduleResolution": "node",                   // Specify module code generation                     // Enable type checking for JavaScript files                   // Support JSX (change to "preserve" if not using React 17+)
+    "baseUrl": ".",                       // Base directory to resolve non-relative module names
+    "paths": {
+      "@/*": ["src/*"]                    
+      
+    },
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true,
+    
+
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
